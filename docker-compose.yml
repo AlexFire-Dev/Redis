@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   redis:
-    image: postgres:5
+    image: redis:5
     volumes:
       - redis-data:/var/lib/redis/
     restart: unless-stopped
