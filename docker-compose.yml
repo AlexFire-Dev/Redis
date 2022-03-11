@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   redis:
-    image: redis:6.2.4
+    image: redis:latest
     volumes:
       - redis-data:/var/lib/redis/
       - ./redis.conf:/etc/redis/redis.conf
