@@ -12,3 +12,7 @@ services:
 
 volumes:
   redis-data:
+
+networks:
+  defaulf:
+    driver: bridge
